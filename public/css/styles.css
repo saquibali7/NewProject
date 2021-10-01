@@ -1,0 +1,112 @@
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: white;
+  font-size: 1.5rem;
+  padding-right: 220px;
+  padding-top: 20px;
+}
+
+.navbar-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 3.5rem;
+}
+
+.navbar-subheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:center;
+  gap: 25px;
+  font-size: 1.5rem;
+}
+
+.adress-heading{
+  background-color: #D57E7E;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+.donate {
+   display: flex;
+   justify-content: flex-end;
+   color: white;
+}
+span {
+    color: #D57E7E;
+}
+.main-page {
+  background-image: url("https://im.whatshot.in/img/2020/Jun/istock-1130655067-cropped-1591265020.jpg");
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+ .text-area {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   text-align: left;
+   gap:1px;
+   max-width: 750px;
+   padding-left: 150px;
+   padding-top: 100px;
+}
+
+.main-line {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #D7E9F7;
+}
+
+.submain-line {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #D7E9F7;
+}
+
+.submain-para {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #D7E9F7;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+button {
+  border-radius: 20px;
+  border-color: #D57E7E;
+  height:50px;
+  width: 175px;
+  background-color:  white;
+  color:  #D57E7E;
+}
+button:hover {
+  border-radius: 20px;
+  width: 175px;
+  height:50px;
+  background-color:  #D57E7E;
+  color:  white;
+}
