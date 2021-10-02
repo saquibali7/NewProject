@@ -8,6 +8,7 @@
   font-size: 1.5rem;
   padding-right: 220px;
   padding-top: 20px;
+  gap:100px;
 }
 
 .navbar-heading {
@@ -109,4 +110,42 @@ button:hover {
   height:50px;
   background-color:  #D57E7E;
   color:  white;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.middle-container-box {
+  max-width: 500px;
+  max-height: 500px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-style: outset;
+  padding: 50px;
+  background-color: #A2CDCD;
+  border-radius: 20px;
+}
+
+.middle-container-heading {
+  font-size: 3.5rem;
+  color: #D57E7E;
+}
+
+.middle-section {
+  background-color: #C6D57E;
+}
+
+#footer {
+  padding :7% 15%;
+  text-align: center;
+  background-color: #D57E7E;
+
+}
+.social-icon {
+  margin:20px 10px;
 }
