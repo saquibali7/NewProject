@@ -4,11 +4,12 @@
   flex-direction: row;
   justify-content: space-between;
   font-weight: bold;
-  background-color: white;
+  background-color: #EEEEEE;
   font-size: 1.5rem;
   padding-right: 220px;
   padding-top: 20px;
   gap:100px;
+  margin: 0;
 }
 
 .navbar-heading {
@@ -36,7 +37,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding: 15px;
-  box-shadow: 0 8px 8px -4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
 }
 
 .address {
@@ -127,9 +128,9 @@ button:hover {
   font-weight: bold;
   border-style: outset;
   padding: 50px;
-  background-color:  #30475E;
+  background-color: #889EAF;
   border-radius: 20px;
-  box-shadow: 0 8px 8px -4px ;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .middle-container-heading {
@@ -138,7 +139,7 @@ button:hover {
 }
 
 .middle-section {
-  background-color: #93B5C6;
+  background-color: #EEEEEE;
 }
 
 #footer {
@@ -151,20 +152,20 @@ button:hover {
   margin:20px 10px;
 }
 
-.form {
+.form  {
   display: flex;
   flex-direction: column;
-  padding:20px;
+  padding-left:350px;
+  background-color: #EEEEEE;
 }
 
 .form-element {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding: 20px;
+  width: 40%;
   gap:10px;
-  font-size: 2rem;
-  color: #316B83;
+  font-size: 1.5rem;
+  color: black;
 }
 
 input {
@@ -173,6 +174,23 @@ input {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input:hover {
+  border-color: #316B83;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.Name {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.fName {
+  display: flex;
+  flex-direction: column;
 }
 
 .button3 {
@@ -186,7 +204,13 @@ input {
   border-color: white;
 }
 .form-heading {
-  color: #316B83;
-  font-size: 3.5rem;
+  color: black;
+  font-size: 3rem;
   font-weight: bold;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }

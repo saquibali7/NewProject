@@ -1,18 +1,62 @@
 <%- include("partials/header"); -%>
-<hr>
 <div class="form">
-  <p class="form-heading">Fill The Registration form to Join</p>
+  <hr class="line">
+  <p class="form-heading">Registration Form</p>
   <form class="form-element" action="/join" method="post">
-    <label for="">Full Name</label>
-    <input type="text" name="fullName" value="">
+
+    <div class="Name">
+      <div class="fName">
+        <label for="">First Name : </label>
+        <input type="text" name="firstName" value="">
+      </div>
+      <div class="fName">
+        <label for="">Lat Name : </label>
+        <input type="text" name="lastName" value="">
+      </div>
+    </div>
+
+    <div class="gender">
+      <label for="gender">Gender : </label>
+      <div class="">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+      </div>
+      <div class="">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female">
+      </div>
+      <div class="">
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender" value="Others">
+      </div>
+    </div>
+
+    <label for="">DOB : </label>
+    <input type="date" name="dob" value="">
+
+    <label for=""></label>
     <label for="">Email</label>
     <input type="email" name="email" value="">
     <label for="">Mobile Number</label>
     <input type="number" name="moNumber" value="">
+    <div class="Name">
+      <div class="fName">
+        <label for="">State : </label>
+        <input type="text" name="state" value="">
+      </div>
+      <div class="fName">
+        <label for="">City : </label>
+        <input type="text" name="city" value="">
+      </div>
+    </div>
     <label for="">Address</label>
     <input type="text" name="address" value="">
-    <button class="button3" type="submit" name="button">Submit</button>
+    <div class="gender">
+      <button class="button3" type="submit" name="button">Submit</button>
+      <button class="button3" type="reset" name="button">Reset</button>
+    </div>
   </form>
+  <hr>
 </div>
 
 <%- include("partials/footer"); -%>

@@ -13,9 +13,14 @@ app.use(express.static("public"));
 mongoose.connect('mongodb://localhost:27017/registrationForm');
 
 const formSchema = {
-  FullName: String,
+  FName: String,
+  LNmae:String,
+  Gender:String,
+  Dob:String,
   Email: String,
   MoNumber: String,
+  State: String,
+  City:String,
   Address: String
 };
 
@@ -37,9 +42,14 @@ app.get("/join", function(req, res){
 
 app.post("/join", function(req, res) {
   const form = new Form({
-    FullName: req.body.fullName,
+    FName: req.body.firstName,
+    LNmae:req.body.lastName,
+    Gender:req.body.gender,
+    Dob:req.body.dob,
     Email: req.body.email,
     MoNumber: req.body.moNumber,
+    State: req.body.state,
+    City:req.body.city,
     Address: req.body.address
   });
 
