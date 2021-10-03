@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+<hr>
+<div class="form">
+  <p class="form-heading">Fill The Registration form to Join</p>
+  <form class="form-element" action="/join" method="post">
+    <label for="">Full Name</label>
+    <input type="text" name="fullName" value="">
+    <label for="">Email</label>
+    <input type="email" name="email" value="">
+    <label for="">Mobile Number</label>
+    <input type="number" name="moNumber" value="">
+    <label for="">Address</label>
+    <input type="text" name="address" value="">
+    <button class="button3" type="submit" name="button">Submit</button>
+  </form>
+</div>
+
+<%- include("partials/footer"); -%>

@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>NGO WEBPORTAL</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/styles.css">
-
-  <script src="https://kit.fontawesome.com/a9724eb378.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <section class="header">
-    <div class="adress-heading">
-      <div class="address">
-        <p>Mail: alisaquib95@gmail.com</p>
-        <p>Phone: +91 8969226710</p>
-      </div>
-      <div class="donate" >
-        <a href="/donate"><p>DONATE NOW</p></a>
-      </div>
-    </div>
-    <div class="navbar">
-      <div class="navbar-heading">
-        <p>To The <span>Rescue!</span></p>
-      </div>
-      <div class="navbar-subheading">
-        <a href="/"><p id="home">Home</p></a>
-        <p id="about"><a href="/about">About Us</a></p>
-        <p id="contact"><a href="/contact">Contact Us</a></p>
-        <p id="contact"><a href="/contact">Gallery</a></p>
-        <p id="contact"><a href="/contact">News</a></p>
-      </div>
-      </div>
+<%- include("partials/header"); -%>
       <div class="main-page">
         <div class="text-area">
           <p class="main-line">SAVE THE ENVIRONMENT!</p>
@@ -48,32 +14,18 @@
   <section class="middle-section">
     <div class="middle-container">
       <div class="middle-container-box">
-        <p class="middle-container-heading">Becom A volunteer</p>
+        <p class="middle-container-heading">Become A volunteer</p>
         <hr>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to m</p>
-        <button type="button" class="button1" >Donate Now</button>
+        <a href="/join"><button type="button" class="button1" >Join Now</button></a>
       </div>
       <div class="middle-container-box">
         <p class="middle-container-heading"> Donate Now</p>
         <hr>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to m</p>
-        <a href="/donate"><button type="button" class="button2"> Join Now</button></a>
+        <a href="/donate"><button type="button" class="button2">Donate Now</button></a>
       </div>
     </div>
   </section>
 
-  <section class="footer">
-
-    <footer id="footer">
-
-    <i class=" social-icon fab fa-facebook-f"></i>
-    <i class=" social-icon fab fa-twitter"></i>
-    <i class=" social-icon fab fa-instagram"></i>
-    <i class=" social-icon fas fa-envelope"></i>
-    <p>© Copyright 2018 BookStore</p>
-
-  </footer>
-  </section>
-</body>
-
-</html>
+  <%- include("partials/footer"); -%>
